@@ -12,7 +12,7 @@ This project is an analysis of a data set from Amazon reviews regarding video ga
 
 ### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 * In the data set their was a total of 15,711 5-star reviews
-* 15,663 of the 5-star reviews were non-vine
+* 15,663 of the 5-star reviews were non-vine members
 
 ### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 * 38.2% of the five_star reviews were vine
