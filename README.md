@@ -18,7 +18,7 @@ This project is an analysis of a data set from Amazon reviews regarding video ga
 * 38.2% of the five_star reviews were vine
 * 38.9% of the five_star reviews were non-vine
 
-![image2](mod16_images/act_img2.png))
+![image2](mod16_images/act_img2.png)
 
 ## Summary
 In conclusion, our analysis indicates that there does not appear to be any sort of positivity bias from the Vine Program. This is due to the fact that the percentages shown above are very similar at 38%.
