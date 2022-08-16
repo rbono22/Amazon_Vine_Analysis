@@ -16,10 +16,6 @@ The video game dataset is extracted into the following DataFrames: customers_df,
 
 For the purpose of this project, only the vine_table is necessary, which is exported from pgAdmin as vine.csv ([Download the vine.zip file here](https://github.com/Mishkanian/Amazon_Vine_Analysis/blob/main/vine.csv.zip)).
 
-### Determining Review Bias
-
-To determine if there is any review bias, Pandas is used to filter and create new DataFrames. This potion of the analysis is found in [Vine_Review_Analysis.ipynb](https://github.com/Mishkanian/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb).
-
 The vine.csv file is read in as DataFrame:
 
 ![vine_df](https://github.com/Mishkanian/Amazon_Vine_Analysis/blob/main/README_images/vine_df.png)
