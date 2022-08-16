@@ -10,7 +10,7 @@ The dataset is extracted from [Amazon's US Reviews Dataset](https://s3.amazonaws
 Amazon Vine is a program launched by Amazon.com that allows manufacturers and publishers to receive reviews for their products from a filtered group of Amazon customers, called "Vine Voices." These Vine Voices are chosen based on several criteria, including their total number of reviews and helpfulness of reviews. **In exchange for free products, these Vine Voices are required to publish a review.** [Amazon's Vine help guide](https://www.amazon.com/gp/vine/help) states that "Voices are not paid" and that Amazon welcomes an "honest opinion about the product."
 
 ## Extract, Transform, Load (ETL)  
-Using [Amazon_Reviews_ETL.ipynb](https://github.com/Mishkanian/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb), the video game dataset is extracted into the following DataFrames: customers_df, products_df, review_id_df, and vine_df. After connecting to the AWS RDS instance, each of these DataFrames are written to the existing tables in pgAdmin. The password and url used to configure the settings for the RDS have been hidden for security, you will need to apply your own information in this section.
+The video game dataset is extracted into the following DataFrames: customers_df, products_df, review_id_df, and vine_df. After connecting to the AWS RDS instance, each of these DataFrames are written to the existing tables in pgAdmin. The password and url used to configure the settings for the RDS have been hidden for security, you will need to apply your own information in this section.
 
 ![postgres_table](https://github.com/Mishkanian/Amazon_Vine_Analysis/blob/main/README_images/postgres_tables.png)
 
